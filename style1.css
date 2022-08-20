@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1{
+    background-color:	#097969;
+    height: 10px;
+    color: #fff;
+}
+
+ul{
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left:30px;
+    float:right;
+    margin-left: 20px;
+}
+
+ul li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding:10px;
+    
+    
+}
+
+ul li .coffee{
+    text-decoration: none;
+    color:black;
+    padding:5px 10px;
+    border:8px solid transparent;
+    
+    transition:0.5s ease;
+}
+
+ul li .coffee:hover{
+    background-color: black;
+    color:#fff;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding:5px 10px;
+    border:8px solid transparent;
+    
+    transition:0.5s ease;
+    
+}
+
+ul li a:hover{
+    background-color: black;
+    color:#fff;
+}
+
+.logo img{
+    float:left;
+    width: 130px;
+    height:auto;
+    margin: 10px;
+    padding:5px 20px;
+}
+
+.content{
+    position: absolute;
+}
+
+.location
+{
+    display:flex;
+    float:right;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding:10px;
+}
+
+.location img{
+    width: 20px;
+    height: auto;
+    padding-right: 10px;
+    
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 35vh;
+    
+}
+
+.box-a{
+    display:grid;
+    grid-template-columns: 1.3fr 1fr;
+    height: 700px;
+    gap:2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-text{
+    max-width: 500px;
+    text-align: left;
+
+}
+
+.box-a img{
+    align-items: right;
+    height:300px;
+    width:auto;
+    margin-left: 100px;
+    transform:rotate(3deg);
+    
+}
+
+.text-head{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding:15px;
+    
+}
+
+.text-bd{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    padding:15px;
+    
+}
+.box-b{
+    display:grid;
+    grid-template-columns: 1fr 1.3fr;
+    height: 400px;
+    gap:2rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box-b :first-child{
+    order: 2;
+}
+
+.box-textb{
+    max-width: 500px;
+    text-align: left;
+    margin-left:100px;
+}
+
+.box-b img{
+    align-items: right;
+    height:350px;
+    width:400px;
+    margin-left:150px;
+    transform:rotate(-2deg);
+    
+}
+
+.text-headb{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding:15px;
+    
+}
+
+.text-bdb{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    padding:15px;
+    
+}
+
+.content1 img{
+    width:100vw;
+    height: auto;
+  
+}
+
+.content2 img{
+    width:100vw;
+    height: auto;
+}
+
+.content3 img{
+    width:100vw;
+    height: auto;
+}
+
+.content4 img{
+    width:100vw;
+    height: auto;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    background-color:	#F0F0F0;
+    height:120px;
+    width:100vw;
+    float: left;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.fb img{
+    height:30px;
+    width:auto;
+    padding:10px;
+    margin-left: 25px;
+}
+
+.insta img{
+    height:30px;
+    width:auto;
+    padding:10px;
+}
+
+.twitter img{
+    height:30px;
+    width:auto;
+    padding:10px;
+}
+
